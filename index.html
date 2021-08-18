@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<a href="http://internship.zuri.team">
+  <img src="https://res.cloudinary.com/dremo/image/upload/v1629211937/zuri_butijt.jpg" width="20%" height="20%" alt="">
+</a>
+<body class="bg-info">
+    <section class="text-center">
+
+    <div id="header"></div><em>
+<div class="left"></div>
+<div class="stuff">
+    <img src="https://res.cloudinary.com/dremo/image/upload/v1629202091/Snapchat-1372596876_myir7j.jpg" width="25%" height="5%" alt="">
+  <br><br>
+  <h1>My Resume</h1>
+<p><strong>NAME:</strong></p>
+<p> 
+    
+  <button onclick="typeWriter()">Click me</button>
+  
+  <p id="demo"></p></p>
+<p><strong>ADDRESS:</strong>151 Aba Road After Mickon Filling station Ikot Ekpene</p>
+<p><strong>EMAIL:</strong>bryanetim@gmail.com</p>
+<p><strong>PHONE NUMBER:</strong>08176966376</p>
+
+  <br>
+  <p class="head"><strong>My Interests include:</strong></p>
+  <p>
+    <p>Photography</p>
+    <p>Design</p>
+    <p>Programming</p>
+    <p>Computer Science</p>
+  
+  <p class="head"><strong>My Skill Includes:</strong></p>
+
+    <p>Web Design with HTML & CSS</p>
+  
+  <p class="head"><strong>My Educational Background is as follows:</strong></p>
+  
+    <p>Graduated from Damzy Mount Zion College,Alimosho,Lagos State</p>
+    <p>Learnt Responsive Web Development at Freecodecamp and gained a certificate</p> 
+        <img src="https://res.cloudinary.com/dremo/image/upload/v1629197867/Certificate_jcmzpj.jpg" width="40%" height="25%" alt="">
+        <p>Currently studying at FUTURELABS<p>
+
+  <p class="head"><strong>My Experience include:</strong></p>
+  
+    <p>Student Technology Intern for Zuri Internships</p>
+    <p>Highly experienced in the use of HTML and CSS</p>
+  
+  <p class="head"><strong>The following are Extracurricular activities I engage in:</strong></p>
+    <p>Reading Books</p>
+    <p>Researching Articles which would help me become a better Programmer and Developer</p>
+  
+  <footer>
+      
+</footer>
+</div>
+</em>
+</section>
+</body>
+<script>
+  var i = 0;
+  var txt = 'Bryan Etim ';
+  var speed = 50;
+  
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  </script>
+</html>
